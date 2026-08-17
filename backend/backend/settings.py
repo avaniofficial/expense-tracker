@@ -138,7 +138,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = [
+    "https://avani-expense-teacker-ui.onrender.com/",
+    ]
 
 TIME_ZONE = 'Asia/Kolkata'
 CORS_ALLOW_ALL_ORIGINS = True
